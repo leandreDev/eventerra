@@ -43,7 +43,13 @@ const routes: Routes = [
     {path: 'faq', component: FaqComponent},
     {path: 'terms-condition', component: TermsConditionsComponent},
     {path: 'privacy-policy', component: PrivacyPolicyComponent},
-    {path: 'contact', component: ContactComponent},
+    {path: 'contact-original', component: ContactComponent},
+    { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
+    { path: 'contact', loadChildren: () => import('./contact-us/contact-us.module').then(m => m.ContactUsModule) },
+    { path: 'offers', loadChildren: () => import('./offers/offers.module').then(m => m.OffersModule) },
+    { path: 'news', loadChildren: () => import('./news/news.module').then(m => m.NewsModule) },
+    { path: 'project', loadChildren: () => import('./project/project.module').then(m => m.ProjectModule) },
+    { path: 'team', loadChildren: () => import('./team/team.module').then(m => m.TeamModule) },
     {path: '**', component: ErrorComponent},
 
 ];

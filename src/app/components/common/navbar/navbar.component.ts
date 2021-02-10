@@ -26,7 +26,7 @@ export class NavbarComponent implements OnInit {
         .subscribe((event) => {
             if ( event instanceof NavigationEnd ) {
                 this.location = this.router.url;
-                if (this.location == '/home-three'){
+                if (this.location === '/home-three') {
                     this.navbarClass = 'navbar-area three';
                 } else {
                     this.navbarClass = 'navbar-area';
