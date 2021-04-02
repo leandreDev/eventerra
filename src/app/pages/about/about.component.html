@@ -1,0 +1,8 @@
+<app-heading [title]="'accroche à définir'"></app-heading>
+
+<app-feature *ngFor="let feat of features"
+[title]="feat.title"
+[desc]="feat.desc"
+[img]="feat.img"
+[imgRight]="feat.isImgRight"
+></app-feature>

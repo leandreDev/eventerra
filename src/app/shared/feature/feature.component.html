@@ -1,0 +1,41 @@
+<section *ngIf="imgRight == false" class="switchable feature-large ">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-6">
+                <img alt="Image" class="border--round box-shadow-wide" [src]="img" />
+            </div>
+            <div class="col-md-6 col-lg-5">
+                <div class="switchable__text">
+                    <h2>{{title}}</h2>
+                    <p class="lead">
+                        {{desc}}
+                    </p>
+                    <a [routerLink]="[link]">Learn More &raquo;</a>
+                </div>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+
+<section *ngIf="imgRight == true" class="switchable feature-large unpad--bottom ">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-6">
+                <div class="switchable__text">
+                    <h2>{{title}}</h2>
+                    <p class="lead">
+                        {{desc}}
+                    </p>
+                    <a [routerLink]="[link]">Learn More &raquo;</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-12 text-center">
+                <img alt="Image" [src]="img" />
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
