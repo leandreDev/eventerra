@@ -1,0 +1,14 @@
+<section class="text-center">
+    <div class="container">
+        <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="space-around start" fxLayoutAlign>
+            
+            <app-feat fxFlex="calc(33%)" *ngFor="let feat of features"
+            [name]="feat.name"
+            [desc]="feat.desc"
+            [icon]="feat.icon"></app-feat>
+
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
