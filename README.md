@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploy
+
+Installation :
+Run `git checkout -b gh-pages` to set first branch
+Run `npm install --save-dev angular-cli-ghpages` to install github pages
+
+Deploy :
+Run `ng build --prod --base-href="https://leandredev.github.io/eventerra/"` to build the project.
+Run `npx ngh --dir=dist` to deploy the project at the base url above.
+

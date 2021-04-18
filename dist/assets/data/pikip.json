@@ -2,15 +2,15 @@
     "name": "Pikip-Booth",
     "accroche": "Le bloc musical plug&play d’une simplicité d'utilisation déconcertante",
     "description": "Un point source placé entre l’artiste et son public pour une fusion musicale.Les basses fréquences sont puissantes et précises. Les kicks sont placés judicieuses devant les corps pour une expérience sensorielle nouvelle. Les hautes fréquences diffusent au dessus du public pour une moyenne portée et une restitution claire comme du cristal, la musique n’a jamais été aussi vivante",
-    "imgOne": "/assets/img/booth-roulettes.png",
-    "imgTwo": "/assets/img/booth-roulettes-down.png",
+    "imgOne": "assets/img/booth-roulettes.png",
+    "imgTwo": "assets/img/booth-roulettes-down.png",
     "promesse": "Enceinte solaire autonome"
 },
 {
     "name": "Pikip-Scène",
     "accroche": "S’adapte a toutes les scènes pour les alimenter en énergie",
     "description": "L’ajout d’une troisième voie dédiée aux vocalises élargit le champs des possibles. Les deux colonnes peuvent être positionnées de part et d’autres d’une scène acoustique/live. Toujours plug&play, l’efficacité de mise en place est inégalée et l’alimentation électrique pour le matériel des artistes est toujours prise en compte",
-    "imgOne": "/assets/img/enceintes-duo-ouvertes.png",
-    "imgTwo": "/assets/img/enceintes-duo.png",
+    "imgOne": "assets/img/enceintes-duo-ouvertes.png",
+    "imgTwo": "assets/img/enceintes-duo.png",
     "promesse": "Le Monolithe Polyvalent"
 }]
