@@ -9,19 +9,19 @@ export class ThreeFeaturesComponent implements OnInit {
 
   @Input() features = [
     {
-      name: 'Empower Youth',
-      desc: 'Stack comes with integration for Mail Chimp and Campaign Monitor forms - ideal for launching modern marketing campaigns',
-      icon: 'icon-Laughing'
+      name: 'Technique',
+      desc: 'PUISSANCE ET QUALITÉ ACCOUSTIQUE',
+      icon: 'icon-Loudspeaker'
     },
     {
-      name: 'Provide Aid',
-      desc: 'Stack comes with integration for Mail Chimp and Campaign Monitor forms - ideal for launching modern marketing campaigns',
-      icon: 'icon-Medical-Sign'
+      name: 'Ecologique',
+      desc: 'AUTONOME EN ENERGIE SOLAIRE',
+      icon: 'icon-Green-Energy'
     },
     {
-      name: 'Strengthen Community',
-      desc: 'Stack comes with integration for Mail Chimp and Campaign Monitor forms - ideal for launching modern marketing campaigns',
-      icon: 'icon-Finger-Print'
+      name: 'Agile',
+      desc: 'INSTALLATION RAPIDE ET SIMPLE TOUT TERRAIN',
+      icon:  'icon-Arrow-Circle' // 'icon-Arrow-Circle' 'icon-Plug-In' 'icon-Plug-In2'
     }
   ];
 

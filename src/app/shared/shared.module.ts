@@ -14,6 +14,8 @@ import { FeatureComponent } from './feature/feature.component';
 import { ThreeFeaturesComponent } from './three-features/three-features.component';
 import { FeatComponent } from './three-features/feat/feat.component';
 import { HeadingFatComponent } from './heading-fat/heading-fat.component';
+import { SliderComponent } from './slider/slider.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 
 
@@ -31,12 +33,16 @@ import { HeadingFatComponent } from './heading-fat/heading-fat.component';
     FeatureComponent,
     ThreeFeaturesComponent,
     FeatComponent,
-    HeadingFatComponent
+    HeadingFatComponent,
+    SliderComponent,
+    AccordionComponent
   ],
   exports: [
     NavigationComponent,
     FooterComponent,
     HeaderComponent,
+    SliderComponent,
+    AccordionComponent,
     ProductCardComponent,
     RelatedProductComponent,
     TransparentNavComponent,
