@@ -1,8 +1,8 @@
-<section *ngIf="imgRight == false" class="switchable feature-large ">
+<section *ngIf="imgRight == false" class="switchable feature-large unpad--bottom">
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-md-6">
-                <img alt="Image" class="border--round box-shadow-wide" [src]="img" />
+                <img alt="Image" [src]="img" />
             </div>
             <div class="col-md-6 col-lg-5">
                 <div class="switchable__text">
@@ -31,7 +31,7 @@
                     <a [routerLink]="[link]">Learn More &raquo;</a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-12 text-center">
+            <div class="col-md-6">
                 <img alt="Image" [src]="img" />
             </div>
         </div>
