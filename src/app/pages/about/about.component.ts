@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
     {
       title: 'LA GENESE',
       // tslint:disable-next-line:max-line-length
-      desc: 'Créée en Avril 2021, EVENTERRA s’est construite autour de cette réflexion.. Comment se réunir en tous lieux en limitant nos impacts ?',
+      desc: 'Créée en Avril 2021, EVENTERRA s’est construite autour de cette réflexion... <strong>Comment se réunir en tous lieux en limitant nos impacts ?</strong>',
       img: 'assets/img/fat-pack.png',
       isImgRight: true,
       link: '/'
@@ -27,7 +27,7 @@ export class AboutComponent implements OnInit {
     {
       title: 'LA POSTURE',
       // tslint:disable-next-line:max-line-length
-      desc: 'Garder les pieds sur terre ! EVENTERRA s’engage au plus dans une recherche de réponses low-tech favorisant l’humain par ses savoir-faire et le sens pratique. L’ensemble des partenaires et solutions du projet sont réalisés par des concepteurs fabricants ’’Made in France’’, ou appartenant à l’économie sociale et solidaire',
+      desc: 'Garder les pieds sur terre ! EVENTERRA s’engage au plus dans une recherche de réponses low-tech favorisant l’humain par ses savoir-faire et le sens pratique. L’ensemble des partenaires et solutions du projet sont réalisés par des concepteurs fabricants ’’Made in France’’, ou appartenant à l’économie sociale et solidaire.',
       img: 'assets/img/agile.png',
       isImgRight: true,
       link: '/'

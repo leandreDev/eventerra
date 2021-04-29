@@ -1,0 +1,32 @@
+<section class="bg--secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Nos Partenaires</h2>
+
+                    <ul fxLayout="row wrap" fxLayout="space-around center" class="slides">
+                        <li fxFlex class="col-md-4 col-12" *ngFor="let item of slides">
+                            <div class="feature feature-1">
+                                <img alt="Image" [src]="item.img" />
+                                <div class="feature__body boxed boxed--border">
+                                    <h5>{{item.name}}</h5>
+                                    <p>
+                                        Description partenaire
+                                    </p>
+                                    <a [href]="item.link" target="_blank">
+                                        Voir leur site.
+                                    </a>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </li>
+
+                    </ul>
+                
+                <!--end of row-->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>

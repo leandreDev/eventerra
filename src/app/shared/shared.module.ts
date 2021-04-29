@@ -16,6 +16,8 @@ import { FeatComponent } from './three-features/feat/feat.component';
 import { HeadingFatComponent } from './heading-fat/heading-fat.component';
 import { SliderComponent } from './slider/slider.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { CardSliderComponent } from './card-slider/card-slider.component';
+import { StayTunedComponent } from './stay-tuned/stay-tuned.component';
 
 
 
@@ -35,7 +37,9 @@ import { AccordionComponent } from './accordion/accordion.component';
     FeatComponent,
     HeadingFatComponent,
     SliderComponent,
-    AccordionComponent
+    AccordionComponent,
+    CardSliderComponent,
+    StayTunedComponent
   ],
   exports: [
     NavigationComponent,
@@ -51,7 +55,8 @@ import { AccordionComponent } from './accordion/accordion.component';
     FeatureComponent,
     ThreeFeaturesComponent,
     FeatComponent,
-    FlexLayoutModule
+    FlexLayoutModule,
+    CardSliderComponent
 
   ],
   imports: [
