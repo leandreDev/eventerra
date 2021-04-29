@@ -14,13 +14,13 @@ export class ThreeFeaturesComponent implements OnInit {
       icon: 'icon-Loudspeaker'
     },
     {
-      name: 'Ecologique',
-      desc: 'AUTONOME EN ENERGIE SOLAIRE',
+      name: 'Écologique',
+      desc: 'AUTONOME EN ÉNERGIE SOLAIRE',
       icon: 'icon-Green-Energy'
     },
     {
       name: 'Agile',
-      desc: 'INSTALLATION RAPIDE ET SIMPLE TOUT TERRAIN',
+      desc: 'INSTALLATION RAPIDE ET SIMPLE: \nTOUT TERRAIN',
       icon:  'icon-Arrow-Circle' // 'icon-Arrow-Circle' 'icon-Plug-In' 'icon-Plug-In2'
     }
   ];

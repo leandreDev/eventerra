@@ -26,7 +26,7 @@
                     <div class="bar__module">
                         <a href="index.html">
                             <img class="logo logo-dark" alt="logo" src="assets/img/logo-black.png" />
-                            <img class="logo logo-light" alt="logo" src="assets/img/logo-white.png" />
+                            <img class="logo logo-light" alt="logo" [src]="isBlack == false ? 'assets/img/logo-white.png' : 'assets/img/logo-black.png'" />
                         </a>
                     </div>
                     <!--end module-->
@@ -35,15 +35,15 @@
                     <div class="bar__module">
                         <ul class="menu-horizontal text-left">
                             <li class="dropdown">
-                                <a [routerLink]="['about']">Qui Sommes-nous</a>
+                                <a [routerLink]="['about']" [ngStyle]="{'color': isBlack == false ? 'white' : 'black'}">Qui Sommes-nous</a>
                             </li>
-                            <li class="dropdown">
+                            <!-- <li class="dropdown">
                                 <a>Acualités</a>
 
-                            </li>
+                            </li> -->
 
                             <li class="dropdown">
-                                <span class="dropdown__trigger">Nos sons solaires</span>
+                                <span class="dropdown__trigger" [ngStyle]="{'color': isBlack == false ? 'white' : 'black'}">Nos sons solaires</span>
                                 <div class="dropdown__container">
                                     <div class="container">
                                         <div class="row">
@@ -51,11 +51,9 @@
                                                 <ul class="menu-vertical">
                                                     <li>
                                                         <a class="dropdown__trigger" [routerLink]="['product/0']">Booth</a>
-                                                        
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown__trigger" [routerLink]="['product/1']">Scène</a>
-                                                        
+                                                        <a class="dropdown__trigger" [routerLink]="['product/1']">Scène</a>    
                                                     </li>
 
                                                 </ul>
@@ -68,7 +66,7 @@
                                 <!--end dropdown container-->
                             </li>
                             <li class="dropdown">
-                                <a class="btn btn--lg type--uppercase" [routerLink]="['contact']">Contact</a>
+                                <a class="btn btn--lg type--uppercase" [routerLink]="['contact']" [ngStyle]="{'color': isBlack == false ? 'white' : 'black'}">Contact</a>
 
                             </li>
                         </ul>

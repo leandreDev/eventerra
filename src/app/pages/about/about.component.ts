@@ -9,7 +9,7 @@ export class AboutComponent implements OnInit {
 
   public features = [
     {
-      title: 'LA GENESE',
+      title: 'LA GÉNÈSE',
       // tslint:disable-next-line:max-line-length
       desc: 'Créée en Avril 2021, EVENTERRA s’est construite autour de cette réflexion... <strong>Comment se réunir en tous lieux en limitant nos impacts ?</strong>',
       img: 'assets/img/fat-pack.png',
@@ -27,15 +27,15 @@ export class AboutComponent implements OnInit {
     {
       title: 'LA POSTURE',
       // tslint:disable-next-line:max-line-length
-      desc: 'Garder les pieds sur terre ! EVENTERRA s’engage au plus dans une recherche de réponses low-tech favorisant l’humain par ses savoir-faire et le sens pratique. L’ensemble des partenaires et solutions du projet sont réalisés par des concepteurs fabricants ’’Made in France’’, ou appartenant à l’économie sociale et solidaire.',
+      desc: 'Garder les pieds sur terre ! EVENTERRA s’engage dans une recherche de réponses low-tech favorisant l’humain par ses savoir-faire. L’ensemble des partenaires et solutions du projet sont réalisés par des concepteurs fabricants "Made in France", ou appartenant à l’économie sociale et solidaire.',
       img: 'assets/img/agile.png',
       isImgRight: true,
       link: '/'
     },
 
     {
-      title: 'NOTRE METIER',
-      desc: `Loueur des systèmes, prestataire de services et de créateur d’évènements à jauge raisonnée.`,
+      title: 'NOTRE MÉTIER',
+      desc: `Loueur de systèmes, prestataire de services et de créateur d’évènements à jauge raisonnée.`,
       img: 'assets/img/technique.png',
       isImgRight: false,
       link: '/'
