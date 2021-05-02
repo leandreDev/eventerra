@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-navigation',
@@ -9,6 +10,17 @@ import { NavigationEnd, Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
 
   public isBlack = false;
+  @HostListener('window:scroll', ['$event'])
+  OnScroll() {
+    if (window.pageYOffset > 300) {
+      this.isBlack = true;
+    }
+
+    if (window.pageYOffset < 300 && this.router.url.indexOf('product') === -1) {
+
+      this.isBlack = false;
+    }
+  }
   constructor(protected router: Router) { }
 
   ngOnInit(): void {
@@ -17,6 +29,8 @@ export class NavigationComponent implements OnInit {
         this.isBlack = true;
       }
     });
+
+
   }
 
 }
