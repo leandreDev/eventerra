@@ -10,17 +10,17 @@ export class CardSliderComponent implements OnInit {
   public slides = [
     {
       name: 'PIKIP',
-      img: 'assets/img/pikip.png',
+      img: 'assets/img/pikip.jpg',
       link: 'https://www.pikip-solarspeakers.com/fr'
     },
     {
       name: 'SWAP MUSIC',
-      img: 'assets/img/swap.png',
+      img: 'assets/img/swap.jpg',
       link: 'https://swap-music.com'
     },
     {
       name: 'SWAP MUSIC',
-      img: 'assets/img/zfprod.png',
+      img: 'assets/img/zfprod.jpg',
       link: 'http://zfprod.com/home/'
     }
   ];
