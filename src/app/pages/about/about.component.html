@@ -1,8 +1,10 @@
-<app-heading [img]="'assets/img/zoom-woofer.png'"></app-heading>
+<div class="main-container">
+    <app-heading [img]="'assets/img/zoom-woofer.png'"></app-heading>
 
-<app-feature *ngFor="let feat of features"
-[title]="feat.title"
-[desc]="feat.desc"
-[img]="feat.img"
-[imgRight]="feat.isImgRight"
-></app-feature>
+    <app-feature *ngFor="let feat of features"
+    [title]="feat.title"
+    [desc]="feat.desc"
+    [img]="feat.img"
+    [imgRight]="feat.isImgRight"
+    ></app-feature>
+</div>
